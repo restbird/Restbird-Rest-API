@@ -1,0 +1,4 @@
+{
+	"description": "Get Request Qeury parameters",
+	"ref": "https://golang.org/pkg/net/http/"
+}

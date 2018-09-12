@@ -1,0 +1,75 @@
+{
+    "apiid": "api16",
+    "type": 0,
+    "request": {
+        "method": "GET",
+        "url": "{{host}}/v1/rest/bindenv?category=rest\u0026project={{rest_case_path}}\u0026env=Box",
+        "describ": "Bind case with Environment",
+        "followredirect": false,
+        "auth": {
+            "method": "Basic",
+            "user": "{{auth_user}}",
+            "password": "{{auth_password}}"
+        },
+        "header": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": null
+        }
+    },
+    "response": {
+        "status": "200 OK",
+        "statuscode": 200,
+        "header": [
+            {
+                "key": "Content-Type",
+                "value": "application/json; charset=utf-8",
+                "disabled": false
+            },
+            {
+                "key": "Content-Length",
+                "value": "27",
+                "disabled": false
+            },
+            {
+                "key": "Connection",
+                "value": "keep-alive",
+                "disabled": false
+            },
+            {
+                "key": "Server",
+                "value": "nginx/1.10.3 (Ubuntu)",
+                "disabled": false
+            },
+            {
+                "key": "Date",
+                "value": "Tue, 11 Sep 2018 01:00:25 GMT",
+                "disabled": false
+            }
+        ],
+        "cookie": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": null
+        }
+    },
+    "responseval": {
+        "scripts": "",
+        "result": false,
+        "info": ""
+    },
+    "scripts": "",
+    "selenium": "",
+    "goscripts": "",
+    "time": {
+        "duration": 0,
+        "connduration": 0,
+        "dnsduration": 0,
+        "reqduration": 0,
+        "resduration": 0,
+        "delayduration": 0
+    },
+    "status": 0
+}

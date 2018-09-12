@@ -1,0 +1,75 @@
+{
+    "apiid": "api2",
+    "type": 0,
+    "request": {
+        "method": "GET",
+        "url": "{{host}}/v1/mock/get?project={{mock_case_path}}",
+        "describ": "Get specific mockServer case",
+        "followredirect": false,
+        "auth": {
+            "method": "Basic",
+            "user": "{{auth_user}}",
+            "password": "{{auth_password}}"
+        },
+        "header": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": null
+        }
+    },
+    "response": {
+        "status": "200 OK",
+        "statuscode": 200,
+        "header": [
+            {
+                "key": "Server",
+                "value": "nginx/1.10.3 (Ubuntu)",
+                "disabled": false
+            },
+            {
+                "key": "Date",
+                "value": "Mon, 10 Sep 2018 03:38:29 GMT",
+                "disabled": false
+            },
+            {
+                "key": "Content-Type",
+                "value": "application/json; charset=utf-8",
+                "disabled": false
+            },
+            {
+                "key": "Content-Length",
+                "value": "1222",
+                "disabled": false
+            },
+            {
+                "key": "Connection",
+                "value": "keep-alive",
+                "disabled": false
+            }
+        ],
+        "cookie": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": null
+        }
+    },
+    "responseval": {
+        "scripts": "",
+        "result": false,
+        "info": ""
+    },
+    "scripts": "",
+    "selenium": "",
+    "goscripts": "",
+    "time": {
+        "duration": 0,
+        "connduration": 0,
+        "dnsduration": 0,
+        "reqduration": 0,
+        "resduration": 0,
+        "delayduration": 0
+    },
+    "status": 0
+}

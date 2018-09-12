@@ -1,0 +1,4 @@
+{
+	"description": "check body(text)",
+	"ref": "http://docs.python-requests.org/en/master/user/quickstart/#response-content"
+}

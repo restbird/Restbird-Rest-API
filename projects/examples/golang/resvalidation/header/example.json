@@ -1,0 +1,4 @@
+{
+	"description": "check header",
+	"ref": "https://golang.org/pkg/net/http/#Header"
+}

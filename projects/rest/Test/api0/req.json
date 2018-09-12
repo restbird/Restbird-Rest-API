@@ -1,0 +1,49 @@
+{
+    "apiid": "api0",
+    "type": 0,
+    "request": {
+        "method": "GET",
+        "url": "https://restbird.org",
+        "describ": "",
+        "followredirect": true,
+        "auth": {
+            "method": "Basic",
+            "user": "admin",
+            "password": "admin"
+        },
+        "header": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": []
+        }
+    },
+    "response": {
+        "status": "400 OK",
+        "statuscode": 0,
+        "header": [],
+        "cookie": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": []
+        }
+    },
+    "responseval": {
+        "scripts": "",
+        "result": false,
+        "info": ""
+    },
+    "scripts": "",
+    "selenium": "",
+    "goscripts": "",
+    "time": {
+        "duration": 0,
+        "connduration": 0,
+        "dnsduration": 0,
+        "reqduration": 0,
+        "resduration": 0,
+        "delayduration": 0
+    },
+    "status": 0
+}

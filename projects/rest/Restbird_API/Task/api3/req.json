@@ -1,0 +1,49 @@
+{
+    "apiid": "api3",
+    "type": 0,
+    "request": {
+        "method": "GET",
+        "url": "{{host}}/v1/task/stop?task={{task_name}}",
+        "describ": "Stop specific task",
+        "followredirect": true,
+        "auth": {
+            "method": "Basic",
+            "user": "admin",
+            "password": "admin"
+        },
+        "header": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": []
+        }
+    },
+    "response": {
+        "status": "400 OK",
+        "statuscode": 0,
+        "header": [],
+        "cookie": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": []
+        }
+    },
+    "responseval": {
+        "scripts": "",
+        "result": false,
+        "info": ""
+    },
+    "scripts": "",
+    "selenium": "",
+    "goscripts": "",
+    "time": {
+        "duration": 0,
+        "connduration": 0,
+        "dnsduration": 0,
+        "reqduration": 0,
+        "resduration": 0,
+        "delayduration": 0
+    },
+    "status": 0
+}

@@ -1,0 +1,4 @@
+{
+	"description": "check body(text)",
+	"ref": "https://golang.org/pkg/net/http/"
+}
