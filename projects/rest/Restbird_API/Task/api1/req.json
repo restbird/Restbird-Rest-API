@@ -7,9 +7,9 @@
         "describ": "Get specific task",
         "followredirect": true,
         "auth": {
-            "method": "no",
-            "user": "",
-            "password": ""
+            "method": "Basic",
+            "user": "{{auth_user}}",
+            "password": "{{auth_password}}"
         },
         "header": [],
         "body": {

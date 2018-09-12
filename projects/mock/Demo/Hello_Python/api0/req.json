@@ -1,0 +1,33 @@
+{
+    "apiid": "api0",
+    "request": {
+        "method": "GET",
+        "url": "/hello/:user",
+        "describ": "Advanced Request Handling with Python",
+        "followredirect": false,
+        "auth": {
+            "method": "no",
+            "user": "",
+            "password": ""
+        },
+        "header": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": []
+        }
+    },
+    "response": {
+        "status": "200 OK",
+        "statuscode": 200,
+        "header": [],
+        "cookie": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": []
+        }
+    },
+    "scripts": "",
+    "issimpleres": false
+}

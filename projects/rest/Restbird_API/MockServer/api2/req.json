@@ -4,7 +4,7 @@
     "request": {
         "method": "GET",
         "url": "{{host}}/v1/mock/get?project={{mock_case_path}}",
-        "describ": "Get specific mockServer case",
+        "describ": "Get specific mockServer case, this API returns mock server running status",
         "followredirect": false,
         "auth": {
             "method": "Basic",

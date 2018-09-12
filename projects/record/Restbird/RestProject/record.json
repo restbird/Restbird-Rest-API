@@ -1,5 +1,5 @@
 {
-    "listenport": 20001,
-    "status": 1,
+    "listenport": 20002,
+    "status": 0,
     "url": "https://demo.restbird.org"
 }

@@ -3,13 +3,13 @@
     "type": 0,
     "request": {
         "method": "GET",
-        "url": "https://restbird.org",
-        "describ": "",
+        "url": "https://demo.restbird.org/v1/mock/all?category=mock\u0026dironly=false",
+        "describ": "For Test",
         "followredirect": true,
         "auth": {
-            "method": "Basic",
-            "user": "admin",
-            "password": "admin"
+            "method": "no",
+            "user": "",
+            "password": ""
         },
         "header": [],
         "body": {

@@ -1,1 +1,1 @@
-{"casepath":"{{mock_case_path}}","listenport":20002,"numrecords":0}
+{"casepath":"{{mock_case_path}}","listenport":{{mock_listen_port}},"numrecords":0}
