@@ -1,0 +1,55 @@
+{
+    "apiid": "api0",
+    "type": 0,
+    "request": {
+        "method": "GET",
+        "url": "https://demo.restbird.org/v1/mock/all?category=mock\u0026dironly=false",
+        "describ": "List all mock cases in https://demo.restbird.org (Python script version)",
+        "followredirect": true,
+        "auth": {
+            "method": "Basic",
+            "user": "admin",
+            "password": "admin"
+        },
+        "header": [
+            {
+                "key": "Authorization",
+                "value": "Basic YWRtaW46YWRtaW4=",
+                "disabled": false
+            }
+        ],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": []
+        }
+    },
+    "response": {
+        "status": "400 OK",
+        "statuscode": 0,
+        "header": [],
+        "cookie": [],
+        "body": {
+            "type": "raw",
+            "data": "",
+            "kvdata": []
+        }
+    },
+    "responseval": {
+        "scripts": "",
+        "result": false,
+        "info": ""
+    },
+    "scripts": "",
+    "selenium": "",
+    "goscripts": "",
+    "time": {
+        "duration": 0,
+        "connduration": 0,
+        "dnsduration": 0,
+        "reqduration": 0,
+        "resduration": 0,
+        "delayduration": 0
+    },
+    "status": 0
+}

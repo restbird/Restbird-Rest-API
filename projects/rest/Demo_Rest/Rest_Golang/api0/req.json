@@ -4,12 +4,12 @@
     "request": {
         "method": "GET",
         "url": "https://demo.restbird.org/v1/mock/all?category=mock\u0026dironly=false",
-        "describ": "For Test",
+        "describ": "List all mock cases in  https://demo.restbird.org (GoLang script version)",
         "followredirect": true,
         "auth": {
-            "method": "no",
-            "user": "",
-            "password": ""
+            "method": "Basic",
+            "user": "admin",
+            "password": "admin"
         },
         "header": [],
         "body": {

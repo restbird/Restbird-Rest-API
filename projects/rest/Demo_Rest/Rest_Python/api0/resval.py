@@ -1,11 +1,19 @@
 # encoding: utf-8
 import requests
+import urllib3
 
 def ResponseValidate(response, ctx) :
-
+    print ("I am in ResponseValidate")
+    jsoncontent = response.json()
+    
+    print (jsoncontent)
+    
     if 'counter' in ctx.vars:
         count = ctx.vars['counter']
-        count = count +1
+        try:
+            count = int(count) + 1
+        except TypeError:
+            count = 1
     else:
         count = 1
 

@@ -6,7 +6,7 @@ import "time"
 
 type CallBack struct {}
 
-func (c  CallBack) GoScripts(ctx *callapi.RestBirdCtx) {
+func (c  CallBack) GoScripts(ctx *callapi.RestBirdCtx) bool {
 
 	hellovars := ctx.GetVars("hello")
 	fmt.Println("hello var is: " + hellovars)
@@ -15,19 +15,20 @@ func (c  CallBack) GoScripts(ctx *callapi.RestBirdCtx) {
 
 	var mytime  time.Time
 	if err := callapi.GetGlobalVars("currTime", &mytime); err != nil {
-		return
+		return false
 	}
 
 	mytime =  time.Now()
 	if err := callapi.SetGlobalVars("currTime", mytime); err != nil {
-		return
+		return false
 	}
 
 	if err, mytoken := callapi.GetGlobalString("mytoken"); err != nil {
-		return
+		return false
 	 } else {
-	    fmt.Println(mytoken)
+		fmt.Println(mytoken)
 		callapi.SetGlobalString("mytoken", "hello world token")
 	}
 
+	return true
 }

@@ -1,0 +1,9 @@
+{
+    "name": "admin",
+    "password": "e508ae8db5edb73f49a4dbc8e6aba264812ed9ffb5c67e86a35dbb065f01e5fa8b1b396771b516854780ffeae970289ae64892ac12aaa20d269e320fde1ba6ab",
+    "salt": "502c707fb23056c0ac5d3fd3b81b81fe5e4f3aaf1f09c78d71985db53ab0658d8a914e6c58873361aac07550443e0dc158ce3f85cb6d6764c84316eda62a3394",
+    "reg_date": "2018-11-29T20:22:03.932433316Z",
+    "createtime": "2018-11-29T20:22:03.932433458Z",
+    "lasttime": "2018-11-30T19:04:42.072791789Z",
+    "isadmin": true
+}

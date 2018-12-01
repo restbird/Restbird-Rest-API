@@ -3,11 +3,13 @@
 import requests
 from restapi import RestApi
 
-def PythonScripts(vars) :
-    pass
-    sess = requests.Session()
+def PythonScripts(ctx) :
+    api = RestApi("Test/testpy", "api0", ctx)
 
-    api = RestApi("Test/testpy", "api0", sess, "")
+    result = api.runApi()
+    if result == True:
+	print ("call api success")
+    else:
+	print ("call api failed")
 
-    #api.runApi({})
-    api.runApi(vars)
+    return result
