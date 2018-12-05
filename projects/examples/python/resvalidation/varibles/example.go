@@ -3,7 +3,7 @@ import requests
 
 def ResponseValidate(response, ctx) :
 
-    if 'counter' in ctx.vars:
+    if 'counter' in vars:
         count = ctx.vars['counter']
         count = count +1
     else:

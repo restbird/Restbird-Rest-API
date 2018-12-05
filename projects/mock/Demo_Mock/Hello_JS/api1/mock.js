@@ -1,10 +1,25 @@
 
 function HandleRequest(req, res, state) {
-    console.log("hello, I am advanced Request handler");
+    var statecount = state.get("counter");
+
+    if (statecount) {
+        statecount.count  = statecount.count + 1;
+        state.save("counter", statecount);
+    } else {
+        statecount = {
+            count: 1
+        };
+        state.save("counter", statecount);
+    }
     
-    user = req.params.user;
-    
-    res.send('hello, ' + user);
+      var myres = {
+        hello: 'hello world',
+        counter: statecount.count,
+        array : ["aa", "bb", "cc"],
+    }
+
+    res.json(myres);
+
 }
 
 module.exports = HandleRequest

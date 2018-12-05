@@ -2,8 +2,8 @@
     "apiid": "api0",
     "request": {
         "method": "GET",
-        "url": "/hello/:user",
-        "describ": "Advanced Request Handling with GoLang",
+        "url": "/hello",
+        "describ": "",
         "followredirect": false,
         "auth": {
             "method": "no",
@@ -20,13 +20,7 @@
     "response": {
         "status": "200 OK",
         "statuscode": 200,
-        "header": [
-            {
-                "key": "aaa",
-                "value": "aaa",
-                "disabled": false
-            }
-        ],
+        "header": [],
         "cookie": [],
         "body": {
             "type": "raw",
@@ -35,5 +29,5 @@
         }
     },
     "scripts": "",
-    "issimpleres": false
+    "issimpleres": true
 }

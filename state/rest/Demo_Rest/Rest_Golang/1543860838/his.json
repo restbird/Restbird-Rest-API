@@ -1,0 +1,18 @@
+{
+    "id": "1543860838",
+    "time": "2018-12-03T18:13:58.872924412Z",
+    "timestr": "2018-12-3 18:13:58",
+    "starttime": "0001-01-01T00:00:00Z",
+    "env": "",
+    "restcase": "Demo_Rest/Rest_Golang",
+    "apis": [
+        "api0"
+    ],
+    "status": 0,
+    "duration": 0,
+    "type": "",
+    "apinums": 0,
+    "failreqs": 0,
+    "invalreqs": 0,
+    "totalreqs": 0
+}
