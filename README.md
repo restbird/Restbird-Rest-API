@@ -13,32 +13,35 @@ To run the project
 * Start Restbird docker and mapping this project directory as Restbird working directory
 
 ~~~
-  docker run -ti -p {host-port}:8080 -p 20001-20009:20001-20009 -v {path-to-project}:/data/restbird restbird/rest
+  docker run -ti --user $(id -u):$(id -g) --net host -v {path-to-project}:/data/restbird restbird/rest
 ~~~
 
-> Here we reserve ports 20001 to 20009 for Mock Server demo
+Open your browser to access http://{host-ip}:8080/ , use default user ***admin/admin*** to login.
 
-Open your browser to access http://{host-ip}:{host-port}/ , use default user ***admin/admin*** to login.
+Enter "Rest Project", "Mockserver" and "Task" menu, and test run all APIs directly.
+You can also download [Restbird Debugger VSCode extension](https://marketplace.visualstudio.com/items?itemName=Restbird.vscode-restbird) to debug test scripts through [VSCode](https://code.visualstudio.com/).
 
-Enter "Rest Project" menu, and test run all APIs directly.
 > The default host is set to http://127.0.0.1:8080, so all APIs will request the docker's localhost:8080 which is the listening prot inside container.
  
-> Test server can be pointed to other location by change the {{host}} environment variable
   
 
 ## Project organization
 
 - Rest Project
-	- Restbird API : Contains Restbird APIs, runing the APIs directly 
+	-  Demo_Rest : Demo project of rest APIs, script written in Golang and Python
+		- Rest_Golang
+		- Rest_Python
+
+	- Restbird API : Contains all Restful APIs of Restbird 
 		- MockServer
 		- RestProject
 		- Task
-	-  Test_rest
-		- Test
-- Mock Server : Demo project of Mock Server
+- Mock Server : Demo project of Mock Server,  script written in Golang, Javascript and Python
 	- Demo
 		- Hello_GoLang
 		- Hello_JS
 		- Hello_Python
-- Task : Demo project of Task
-	- DemoTask    
+		
+- Task : Demo project of Task, script written in Golang and Python
+	- Demo_Task_Golang
+	- Demo_Task_Python    

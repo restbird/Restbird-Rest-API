@@ -1,0 +1,71 @@
+{
+    "apiid": "api1",
+    "status": 0,
+    "starttime": "Tue Dec 04 2018 20:51:52 GMT-0800 (PST)",
+    "client": "127.0.0.1",
+    "request": {
+        "method": "GET",
+        "url": "/favicon.ico",
+        "describ": "",
+        "followredirect": false,
+        "auth": {
+            "method": "no"
+        },
+        "header": [
+            {
+                "key": "host",
+                "value": "127.0.0.1:20001",
+                "isdisabled": false
+            },
+            {
+                "key": "user-agent",
+                "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:63.0) Gecko/20100101 Firefox/63.0",
+                "isdisabled": false
+            },
+            {
+                "key": "accept",
+                "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "isdisabled": false
+            },
+            {
+                "key": "accept-language",
+                "value": "en-US,en;q=0.5",
+                "isdisabled": false
+            },
+            {
+                "key": "accept-encoding",
+                "value": "gzip, deflate",
+                "isdisabled": false
+            },
+            {
+                "key": "dnt",
+                "value": "1",
+                "isdisabled": false
+            },
+            {
+                "key": "connection",
+                "value": "keep-alive",
+                "isdisabled": false
+            },
+            {
+                "key": "cookie",
+                "value": "beegosessionID=f3a804ad4c30ac064490dc10bd06a953; tokenString=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDQwMTQyOTcsImlzcyI6ImFkbWluIiwidXNlcmlkIjoiYWRtaW4iLCJpc2FkbWluIjp0cnVlfQ.uIk5ig_XBCPh-Yx5I4OKg_iJrUOMGV5ZcEFs0drZ0uaJyBC4ClTJ_YHpa1wRd9-WTXAHRp36RQlTFFPvFddZWuTDTr8kx-mhE64hmhsDuWXYu58MIsqYyN-o3ikRT5NpB2WFfgZbQcSRr8mxGLR-2hGP7MkL0U0Z4feBnCIF5S2luZUYRZCAXctKwQuEqP1AxHEA96gr_8BRz6M4TR1Y4znrpP4QB9fSk-QAXgSpdGgUr9mQM2eQ2qdUKimr3oc0aYj8BYySGWpd5FcJmzPCDVvcSYZ5y7OgT-05eO6FCZz6phI7F5NYF-ed4pfk7sepFp3V8O6LVw5lRgi2piycYQ",
+                "isdisabled": false
+            }
+        ],
+        "body": {
+            "type": "raw",
+            "data": ""
+        }
+    },
+    "response": {
+        "status": "200 OK",
+        "statuscode": 200,
+        "header": [],
+        "body": {
+            "type": "",
+            "data": "",
+            "kvdata": null
+        }
+    }
+}

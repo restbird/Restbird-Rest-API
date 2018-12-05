@@ -5,7 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch",
+            "type": "node",
+            "request": "launch",
+            "name": "Launch JS",
+            "program": "${fileDirname}/restbird-mock.js",
+            "runtimeExecutable": "/usr/bin/node"
+        },
+        {
+            "name": "Launch Go",
             "type": "go",
             "request": "launch",
             "mode": "auto",
@@ -16,6 +23,13 @@
             "env": {},
             "args": [],
             "showLog": false
-        }
+        },  
+        {
+            "name": "Python: Terminal (integrated)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
     ]
 }
